@@ -22,6 +22,11 @@ researchInterests:
   - "Macro Finance"
 publications:
   - citation: >-
+      Feng, G., Jiang, L., Li, J., Song, Y., and Wang, Y., 2026. "Deep Tangency Portfolios", Management Science, Forthcoming
+    links:
+      - label: "PDF"
+        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971274"
+  - citation: >-
       Li, J., Sarno, L., and Zinna, G., 2025. "Skewness Risk Premia and the Cross-Section of Currency Returns", Journal of Financial and Quantitative Analysis, Forthcoming
     links:
       - label: "PDF"
@@ -149,13 +154,6 @@ workingPapers:
     notes:
       - "Best Paper Award, 2023 Paris December Finance Meeting"
       - "Revise & Resubmit: Journal of Financial Economics"
-  - citation: >-
-      Feng, G., Jiang, L., Li, J., and Song, Y., "Deep Tangency Portfolios", First version: November 2021; This version: December 2025
-    links:
-      - label: "PDF"
-        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971274"
-    notes:
-      - "Revise & Resubmit: Management Science"
   - citation: >-
       Fulop, A., Heng, J., and Li, J., "Annealed Controlled Sequential Monte Carlo with Applications to Dynamic Economic Models", First version: January 2021; This version: January 2026
     links:
