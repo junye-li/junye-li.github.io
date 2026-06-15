@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { frontmatter } from "../content/site/data-code.md";
+---
+
+<BaseLayout title={frontmatter.title} description={frontmatter.description} path="/data-code/">
+  <section class="simple-page" aria-labelledby="page-title">
+    <h1 id="page-title">{frontmatter.title}</h1>
+  </section>
+</BaseLayout>

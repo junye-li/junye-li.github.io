@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProfileHeader from "../components/ProfileHeader.astro";
+import PaperList from "../components/PaperList.astro";
+import { frontmatter } from "../content/site/home.md";
+import { site } from "../../site.config.mjs";
+
+interface AcademicLink {
+  label: string;
+  url: string;
+}
+
+interface ProfileData {
+  name: string;
+  chineseName: string;
+  title: string;
+  affiliation: string[];
+  email: string;
+  telephone: string;
+  address: string;
+  image: string;
+  links: AcademicLink[];
+}
+
+const profile = frontmatter.profile as ProfileData;
+const researchInterests = frontmatter.researchInterests as string[];
+const publications = frontmatter.publications;
+const workingPapers = frontmatter.workingPapers;
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Junye Li",
+  alternateName: ["Junye LI", "李隽业"],
+  jobTitle: profile.title,
+  affiliation: {
+    "@type": "CollegeOrUniversity",
+    name: "Fudan University"
+  },
+  worksFor: {
+    "@type": "Organization",
+    name: "School of Management, Fudan University"
+  },
+  email: `mailto:${profile.email}`,
+  telephone: profile.telephone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "670 Guoshun Road",
+    addressLocality: "Shanghai",
+    addressCountry: "China"
+  },
+  image: new URL(profile.image, site.url).toString(),
+  url: site.url,
+  sameAs: profile.links.map((link: AcademicLink) => link.url),
+  knowsAbout: researchInterests
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: site.title,
+  url: site.url,
+  description: site.description
+};
+---
+
+<BaseLayout title={site.title} description={site.description} path="/" image={profile.image} jsonLd={[personJsonLd, websiteJsonLd]}>
+  <ProfileHeader profile={profile} />
+
+  <section class="research-interests" aria-labelledby="research-interests">
+    <h2 id="research-interests">Research Interests</h2>
+    <ul>
+      {researchInterests.map((interest: string) => <li>{interest}</li>)}
+    </ul>
+  </section>
+
+  <PaperList title="Publications" papers={publications} />
+  <PaperList title="Working Papers" papers={workingPapers} ordered={false} />
+</BaseLayout>

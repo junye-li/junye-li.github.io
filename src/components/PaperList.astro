@@ -1,0 +1,53 @@
+---
+interface LinkItem {
+  label: string;
+  url?: string;
+}
+
+interface Paper {
+  citation: string;
+  links?: LinkItem[];
+  extras?: LinkItem[];
+  notes?: string[];
+}
+
+interface Props {
+  title: string;
+  papers: Paper[];
+  ordered?: boolean;
+}
+
+const { title, papers, ordered = true } = Astro.props;
+const ListTag = ordered ? "ol" : "ul";
+---
+
+<section class="paper-section" aria-labelledby={title.toLowerCase().replaceAll(" ", "-")}>
+  <h2 id={title.toLowerCase().replaceAll(" ", "-")}>{title}</h2>
+  <ListTag class="paper-list">
+    {
+      papers.map((paper) => (
+        <li class="paper-item">
+          <p class="citation">{paper.citation}</p>
+          {(paper.links?.length || paper.extras?.length) && (
+            <p class="paper-links">
+              {[...(paper.links ?? []), ...(paper.extras ?? [])].map((link) =>
+                link.url ? (
+                  <a href={link.url}>{link.label}</a>
+                ) : (
+                  <span>{link.label}</span>
+                )
+              )}
+            </p>
+          )}
+          {paper.notes?.length ? (
+            <ul class="paper-notes">
+              {paper.notes.map((note) => (
+                <li>{note}</li>
+              ))}
+            </ul>
+          ) : null}
+        </li>
+      ))
+    }
+  </ListTag>
+</section>

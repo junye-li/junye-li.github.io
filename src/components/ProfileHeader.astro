@@ -1,0 +1,54 @@
+---
+interface LinkItem {
+  label: string;
+  url: string;
+}
+
+interface Profile {
+  name: string;
+  chineseName: string;
+  title: string;
+  affiliation: string[];
+  email: string;
+  telephone: string;
+  address: string;
+  image: string;
+  links: LinkItem[];
+}
+
+interface Props {
+  profile: Profile;
+}
+
+const { profile } = Astro.props;
+---
+
+<section class="profile" aria-labelledby="profile-heading">
+  <div class="profile-copy">
+    <p class="eyebrow">{profile.title}</p>
+    <h1 id="profile-heading">{profile.name} <span>({profile.chineseName})</span></h1>
+    <div class="affiliation">
+      {profile.affiliation.map((line) => <p>{line}</p>)}
+    </div>
+    <dl class="contact-list">
+      <div>
+        <dt>Email</dt>
+        <dd><a href={`mailto:${profile.email}`}>{profile.email}</a></dd>
+      </div>
+      <div>
+        <dt>Tel</dt>
+        <dd>{profile.telephone}</dd>
+      </div>
+      <div>
+        <dt>Address</dt>
+        <dd>{profile.address}</dd>
+      </div>
+    </dl>
+    <div class="profile-links" aria-label="Academic profile links">
+      {profile.links.map((link) => <a href={link.url}>{link.label}</a>)}
+    </div>
+  </div>
+  <figure class="profile-photo">
+    <img src={profile.image} alt="Portrait of Junye Li" width="360" height="360" loading="eager" />
+  </figure>
+</section>

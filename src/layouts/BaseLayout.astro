@@ -1,0 +1,59 @@
+---
+import Nav from "../components/Nav.astro";
+import "../styles/global.css";
+import { site } from "../../site.config.mjs";
+
+interface Props {
+  title?: string;
+  description?: string;
+  path?: string;
+  image?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title = site.title,
+  description = site.description,
+  path = Astro.url.pathname,
+  image = site.profileImage,
+  jsonLd
+} = Astro.props;
+
+const canonical = new URL(path, site.url).toString();
+const imageUrl = new URL(image, site.url).toString();
+const pageTitle = title === site.title ? title : `${title} | ${site.name}`;
+const structuredData = jsonLd ?? {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: site.title,
+  url: site.url,
+  description: site.description
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <Nav currentPath={Astro.url.pathname} />
+    <main id="main" class="page-shell">
+      <slot />
+    </main>
+  </body>
+</html>
