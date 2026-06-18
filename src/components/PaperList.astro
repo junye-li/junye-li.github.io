@@ -27,7 +27,7 @@ const ListTag = ordered ? "ol" : "ul";
     {
       papers.map((paper) => (
         <li class="paper-item">
-          <p class="citation">{paper.citation}</p>
+          <p class="citation" set:html={paper.citation} />
           {(paper.links?.length || paper.extras?.length) && (
             <p class="paper-links">
               {[...(paper.links ?? []), ...(paper.extras ?? [])].map((link) =>
