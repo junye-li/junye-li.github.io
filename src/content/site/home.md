@@ -1,6 +1,6 @@
 ---
 profile:
-  name: "Junye LI"
+  name: "LI, Junye"
   chineseName: "李隽业"
   title: "LI Dasan Chair Professor of Finance"
   affiliation:
@@ -185,14 +185,14 @@ workingPapers:
     notes:
       - "Reject & Resubmit: Journal of Banking and Finance"
   - citation: >-
-      Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: March 2026
+      Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4219905"
     notes:
       - "Best Paper Award, 2024 China FinTech Research Conference."
   - citation: >-
-      Cong, L., Feng, G., He, J., and Li, J., "Sparse Modeling Under Grouped Heterogeneity with an Application to Asset Pricing", First version: July 2023; This version: December 2025
+      Cong, L., Feng, G., He, J., and Li, J., "Sparse Modeling Under Grouped Heterogeneity with an Application to Asset Pricing", First version: July 2023; This version: June 2026
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4511953"
@@ -212,7 +212,7 @@ workingPapers:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4980859"
   - citation: >-
-      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach". First version: October 2019; This version: January 2026
+      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach". First version: October 2019; This version: January 2026. Revise & Resubmit: Journal of Financial Econometrics
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
