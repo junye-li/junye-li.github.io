@@ -22,7 +22,7 @@ researchInterests:
   - "Macro/International Finance"
 publications:
   - citation: >-
-      Feng, G., Jiang, L., Li, J., Song, Y., and Wang, Y., 2026. "Deep Tangency Portfolio", **Management Science**, Forthcoming
+      Feng, G., Jiang, L., Li, J., Song, Y., and Wang, Y., 2026. "Deep Tangency Portfolio", <strong>Management Science</strong>, Forthcoming
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971274"
