@@ -162,7 +162,7 @@ workingPapers:
     extras:
       - label: "Internet Appendix"
     notes:
-      - "Revise & Resubmit: Journal of the American Statistical Association"
+      - "<strong>Revise & Resubmit: Journal of the American Statistical Association</strong>"
   - citation: >-
       Jia, Y., Li, J., Zhang, H., and Zhao, J. "Timing the Factor Zoo via Deep Visualization". First version: July 2025; This version: December 2025
     links:
