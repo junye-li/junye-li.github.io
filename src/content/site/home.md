@@ -153,7 +153,7 @@ workingPapers:
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4148440"
     notes:
       - "Best Paper Award, 2023 Paris December Finance Meeting"
-      - "Revise & Resubmit: Journal of Financial Economics"
+      - "<strong>Revise & Resubmit: Journal of Financial Economics</strong>"
   - citation: >-
       Fulop, A., Heng, J., and Li, J., "Annealed Controlled Sequential Monte Carlo with Applications to Dynamic Economic Models", First version: January 2021; This version: January 2026
     links:
@@ -185,6 +185,13 @@ workingPapers:
     notes:
       - "Reject & Resubmit: Journal of Banking and Finance"
   - citation: >-
+      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach". First version: October 2019; This version: January 2026.
+    links:
+      - label: "PDF"
+        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
+    notes:
+      - "Revise & Resubmit: Journal of Financial Econometrics"
+  - citation: >-
       Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
     links:
       - label: "PDF"
@@ -211,11 +218,6 @@ workingPapers:
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4980859"
-  - citation: >-
-      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach". First version: October 2019; This version: January 2026. Revise & Resubmit: Journal of Financial Econometrics
-    links:
-      - label: "PDF"
-        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
   - citation: >-
       Jia, Y., Li, J., and Yang, H. "A Robust Variance Bound on Stochastic Discount Factors under Model Uncertainty". First version: January 2026; This version: February 2026
     links:
