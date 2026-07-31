@@ -190,7 +190,7 @@ workingPapers:
     notes:
       - "Reject & Resubmit: Journal of Banking and Finance"
   - citation: >-
-      Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
+      Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Characteristic Premia", First version: September 2022; This version: July 2026
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4219905"
