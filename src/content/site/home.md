@@ -158,7 +158,7 @@ workingPapers:
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4148440"
     notes:
       - "Best Paper Award, 2023 Paris December Finance Meeting"
-      - "<strong>Revise & Resubmit: Journal of Financial Economics</strong>"
+      - "Revise & Resubmit: Journal of Financial Economics"
   - citation: >-
       Fulop, A., Heng, J., and Li, J., "Annealed Controlled Sequential Monte Carlo with Applications to Dynamic Economic Models", First version: January 2021; This version: January 2026
     links:
@@ -167,28 +167,28 @@ workingPapers:
     extras:
       - label: "Internet Appendix"
     notes:
-      - "<strong>Revise & Resubmit: Journal of the American Statistical Association</strong>"
+      - "Revise & Resubmit: Journal of the American Statistical Association"
   - citation: >-
       Jia, Y., Li, J., Zhang, H., and Zhao, J. "Timing the Factor Zoo via Deep Visualization". First version: July 2025; This version: December 2025
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5981095"
     notes:
-      - "<strong>Revise & Resubmit: Management Science</strong>"
+      - "Revise & Resubmit: Management Science"
   - citation: >-
       Bie, S., Diebold, F., He, J., and Li, J., "Machine Learning and the Yield Curve: Tree-Based Macroeconomic Regime Switching." First version: July 2024; This version: May, 2025
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4934442"
     notes:
-      - "<strong>Reject & Resubmit: Journal of the American Statistical Association</strong>"
+      - "Reject & Resubmit: Journal of the American Statistical Association"
   - citation: >-
       Wang, C. and Li, J. "More stringent, more efficient? Short-selling activities and anomaly mispricing in China." First version: February 2025; This version: October 2025
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133353"
     notes:
-      - "<strong>Reject & Resubmit: Journal of Banking and Finance</strong>"
+      - "Reject & Resubmit: Journal of Banking and Finance"
   - citation: >-
       Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
     links:
