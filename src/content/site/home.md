@@ -31,8 +31,6 @@ publications:
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
-    notes:
-      - "Revise & Resubmit: "
   - citation: >-
       Li, J., Sarno, L., and Zinna, G., 2026. "Skewness Risk Premia and the Cross-Section of Currency Returns", <strong>Journal of Financial and Quantitative Analysis</strong> 61, 1565-1603
     links:
