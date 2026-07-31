@@ -27,7 +27,7 @@ publications:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971274"
   - citation: >-
-      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach", <strong>Journal of Financial Econometrics</strong>, Forthcoming
+      Fan, Y., Feng, G., Fulop, A., and Li, J., 2026. "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach", <strong>Journal of Financial Econometrics</strong>, Forthcoming
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
@@ -174,21 +174,21 @@ workingPapers:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5981095"
     notes:
-      - "Revise & Resubmit: Management Science"
+      - "<strong>Revise & Resubmit: Management Science</strong>"
   - citation: >-
       Bie, S., Diebold, F., He, J., and Li, J., "Machine Learning and the Yield Curve: Tree-Based Macroeconomic Regime Switching." First version: July 2024; This version: May, 2025
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4934442"
     notes:
-      - "Reject & Resubmit: Journal of the American Statistical Association"
+      - "<strong>Reject & Resubmit: Journal of the American Statistical Association</strong>"
   - citation: >-
       Wang, C. and Li, J. "More stringent, more efficient? Short-selling activities and anomaly mispricing in China." First version: February 2025; This version: October 2025
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133353"
     notes:
-      - "Reject & Resubmit: Journal of Banking and Finance."
+      - "<strong>Reject & Resubmit: Journal of Banking and Finance</strong>"
   - citation: >-
       Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
     links:
