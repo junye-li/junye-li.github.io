@@ -27,7 +27,14 @@ publications:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971274"
   - citation: >-
-      Li, J., Sarno, L., and Zinna, G., 2025. "Skewness Risk Premia and the Cross-Section of Currency Returns", <strong>Journal of Financial and Quantitative Analysis</strong>, Forthcoming
+      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach", <strong>Journal of Financial Econometrics</strong>, Forthcoming
+    links:
+      - label: "PDF"
+        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
+    notes:
+      - "Revise & Resubmit: "
+  - citation: >-
+      Li, J., Sarno, L., and Zinna, G., 2026. "Skewness Risk Premia and the Cross-Section of Currency Returns", <strong>Journal of Financial and Quantitative Analysis</strong> 61, 1565-1603
     links:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4580189"
@@ -183,14 +190,7 @@ workingPapers:
       - label: "PDF"
         url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133353"
     notes:
-      - "Reject & Resubmit: Journal of Banking and Finance"
-  - citation: >-
-      Fan, Y., Feng, G., Fulop, A., and Li, J., "Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach". First version: October 2019; This version: January 2026.
-    links:
-      - label: "PDF"
-        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517081"
-    notes:
-      - "Revise & Resubmit: Journal of Financial Econometrics"
+      - "Reject & Resubmit: Journal of Banking and Finance."
   - citation: >-
       Cong, L., Feng, G., He, J., Li, J., and Zhang, Q., "Asset Heterogeneity and Uncommon Factors", First version: September 2022; This version: June 2026
     links:
